@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Amila1995/my-tailwind-project/issues"
   },
-  "homepage": "https://github.com/Amila1995/my-tailwind-project#readme"
+  "homepage": "https://github.com/Amila1995/my-tailwind-project#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.4"
+  }
 }
