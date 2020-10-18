@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Amila1995/my-tailwind-project#readme",
   "dependencies": {
-    "autoprefixer": "^10.0.1",
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.4"
   }
